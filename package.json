@@ -29,8 +29,12 @@
   "dependencies": {
     "assign-deep": "^0.4.5",
     "async": "^2.4.1",
+    "handlebars": "^4.0.10",
     "js-yaml": "^3.7.0",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "require-from-string": "^2.0.1",
+    "swagger-client": "^3.1.0",
+    "yargs": "^9.0.1"
   },
   "devDependencies": {
     "assume": "^1.4.1",

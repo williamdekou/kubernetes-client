@@ -1,0 +1,1703 @@
+{
+  "api": {
+    "className": "api",
+    "children": [
+      {
+        "className": "v1",
+        "children": [
+          {
+            "className": "namespaces",
+            "children": [
+              {
+                "className": "bindings",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              },
+              {
+                "className": "configmaps",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "cm"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "endpoints",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "ep"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "events",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "ev"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "limitranges",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "limits"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "persistentvolumeclaims",
+                "children": [
+                  {
+                    "className": "status",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [],
+                    "resourceAliases": []
+                  }
+                ],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "pvc"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "pods",
+                "children": [
+                  {
+                    "className": "attach",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [],
+                    "resourceAliases": []
+                  },
+                  {
+                    "className": "binding",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [],
+                    "resourceAliases": []
+                  },
+                  {
+                    "className": "eviction",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [],
+                    "resourceAliases": []
+                  },
+                  {
+                    "className": "exec",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [],
+                    "resourceAliases": []
+                  },
+                  {
+                    "className": "log",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [],
+                    "resourceAliases": []
+                  },
+                  {
+                    "className": "portforward",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [],
+                    "resourceAliases": []
+                  },
+                  {
+                    "className": "proxy",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "resourceAliases": [],
+                    "parameter": "path"
+                  }
+                ],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "po"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "podtemplates",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [],
+                "parameter": "name"
+              },
+              {
+                "className": "replicationcontrollers",
+                "children": [
+                  {
+                    "className": "scale",
+                    "children": [],
+                    "methods": [
+                      "get",
+                      "put",
+                      "post",
+                      "delete"
+                    ],
+                    "parameterMethods": [],
+                    "resourceAliases": []
+                  }
+                ],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "rc"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "resourcequotas",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "quota"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "secrets",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [],
+                "parameter": "name"
+              },
+              {
+                "className": "serviceaccounts",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [],
+                "parameter": "name"
+              },
+              {
+                "className": "services",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [
+                  "svc"
+                ],
+                "parameter": "name"
+              },
+              {
+                "className": "finalize",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              }
+            ],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "ns"
+            ],
+            "parameter": "name"
+          }
+        ],
+        "methods": [],
+        "parameterMethods": [],
+        "resourceAliases": []
+      }
+    ],
+    "methods": [],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "v1": {
+    "className": "v1",
+    "children": [
+      {
+        "className": "namespaces",
+        "children": [
+          {
+            "className": "bindings",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          },
+          {
+            "className": "configmaps",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "cm"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "endpoints",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "ep"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "events",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "ev"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "limitranges",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "limits"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "persistentvolumeclaims",
+            "children": [
+              {
+                "className": "status",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              }
+            ],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "pvc"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "pods",
+            "children": [
+              {
+                "className": "attach",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              },
+              {
+                "className": "binding",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              },
+              {
+                "className": "eviction",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              },
+              {
+                "className": "exec",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              },
+              {
+                "className": "log",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              },
+              {
+                "className": "portforward",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              },
+              {
+                "className": "proxy",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "resourceAliases": [],
+                "parameter": "path"
+              }
+            ],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "po"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "podtemplates",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [],
+            "parameter": "name"
+          },
+          {
+            "className": "replicationcontrollers",
+            "children": [
+              {
+                "className": "scale",
+                "children": [],
+                "methods": [
+                  "get",
+                  "put",
+                  "post",
+                  "delete"
+                ],
+                "parameterMethods": [],
+                "resourceAliases": []
+              }
+            ],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "rc"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "resourcequotas",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "quota"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "secrets",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [],
+            "parameter": "name"
+          },
+          {
+            "className": "serviceaccounts",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [],
+            "parameter": "name"
+          },
+          {
+            "className": "services",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [
+              "svc"
+            ],
+            "parameter": "name"
+          },
+          {
+            "className": "finalize",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          }
+        ],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "ns"
+        ],
+        "parameter": "name"
+      }
+    ],
+    "methods": [],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "namespaces": {
+    "className": "namespaces",
+    "children": [
+      {
+        "className": "bindings",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      },
+      {
+        "className": "configmaps",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "cm"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "endpoints",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "ep"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "events",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "ev"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "limitranges",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "limits"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "persistentvolumeclaims",
+        "children": [
+          {
+            "className": "status",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          }
+        ],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "pvc"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "pods",
+        "children": [
+          {
+            "className": "attach",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          },
+          {
+            "className": "binding",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          },
+          {
+            "className": "eviction",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          },
+          {
+            "className": "exec",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          },
+          {
+            "className": "log",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          },
+          {
+            "className": "portforward",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          },
+          {
+            "className": "proxy",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "resourceAliases": [],
+            "parameter": "path"
+          }
+        ],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "po"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "podtemplates",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [],
+        "parameter": "name"
+      },
+      {
+        "className": "replicationcontrollers",
+        "children": [
+          {
+            "className": "scale",
+            "children": [],
+            "methods": [
+              "get",
+              "put",
+              "post",
+              "delete"
+            ],
+            "parameterMethods": [],
+            "resourceAliases": []
+          }
+        ],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "rc"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "resourcequotas",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "quota"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "secrets",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [],
+        "parameter": "name"
+      },
+      {
+        "className": "serviceaccounts",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [],
+        "parameter": "name"
+      },
+      {
+        "className": "services",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [
+          "svc"
+        ],
+        "parameter": "name"
+      },
+      {
+        "className": "finalize",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      }
+    ],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "ns"
+    ],
+    "parameter": "name"
+  },
+  "bindings": {
+    "className": "bindings",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "configmaps": {
+    "className": "configmaps",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "cm"
+    ],
+    "parameter": "name"
+  },
+  "endpoints": {
+    "className": "endpoints",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "ep"
+    ],
+    "parameter": "name"
+  },
+  "events": {
+    "className": "events",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "ev"
+    ],
+    "parameter": "name"
+  },
+  "limitranges": {
+    "className": "limitranges",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "limits"
+    ],
+    "parameter": "name"
+  },
+  "persistentvolumeclaims": {
+    "className": "persistentvolumeclaims",
+    "children": [
+      {
+        "className": "status",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      }
+    ],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "pvc"
+    ],
+    "parameter": "name"
+  },
+  "status": {
+    "className": "status",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "pods": {
+    "className": "pods",
+    "children": [
+      {
+        "className": "attach",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      },
+      {
+        "className": "binding",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      },
+      {
+        "className": "eviction",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      },
+      {
+        "className": "exec",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      },
+      {
+        "className": "log",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      },
+      {
+        "className": "portforward",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      },
+      {
+        "className": "proxy",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "resourceAliases": [],
+        "parameter": "path"
+      }
+    ],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "po"
+    ],
+    "parameter": "name"
+  },
+  "attach": {
+    "className": "attach",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "binding": {
+    "className": "binding",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "eviction": {
+    "className": "eviction",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "exec": {
+    "className": "exec",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "log": {
+    "className": "log",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "portforward": {
+    "className": "portforward",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "proxy": {
+    "className": "proxy",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [],
+    "parameter": "path"
+  },
+  "podtemplates": {
+    "className": "podtemplates",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [],
+    "parameter": "name"
+  },
+  "replicationcontrollers": {
+    "className": "replicationcontrollers",
+    "children": [
+      {
+        "className": "scale",
+        "children": [],
+        "methods": [
+          "get",
+          "put",
+          "post",
+          "delete"
+        ],
+        "parameterMethods": [],
+        "resourceAliases": []
+      }
+    ],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "rc"
+    ],
+    "parameter": "name"
+  },
+  "scale": {
+    "className": "scale",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  },
+  "resourcequotas": {
+    "className": "resourcequotas",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "quota"
+    ],
+    "parameter": "name"
+  },
+  "secrets": {
+    "className": "secrets",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [],
+    "parameter": "name"
+  },
+  "serviceaccounts": {
+    "className": "serviceaccounts",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [],
+    "parameter": "name"
+  },
+  "services": {
+    "className": "services",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "resourceAliases": [
+      "svc"
+    ],
+    "parameter": "name"
+  },
+  "finalize": {
+    "className": "finalize",
+    "children": [],
+    "methods": [
+      "get",
+      "put",
+      "post",
+      "delete"
+    ],
+    "parameterMethods": [],
+    "resourceAliases": []
+  }
+}

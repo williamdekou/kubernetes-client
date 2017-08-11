@@ -1,0 +1,34 @@
+
+function {{className}}(options, path) {
+  path = (path || options.path) + '/{{className}}';
+  function _{{className}}({{parameter}}) {
+    {{#if parameter}}
+    const nextPath = path + '/' + {{parameter}};
+    {{/if}}
+    return {
+      {{#if parameter}}
+      {{#children}}
+      {{className}}: {{className}}(options, nextPath),
+      {{/children}}
+
+      {{#each parameterMethods}}
+      {{this}}: {{{method this 'nextPath'}}}{{#if @last}}{{else}},{{/if}}
+      {{/each}}
+      {{/if}}
+    };
+  }
+  {{#if parameter}}
+  {{else}}
+  {{#children}}
+  _{{../className}}.{{className}} =  {{className}}(options, path);
+  {{#each resourceAliases}}
+  _{{../../className}}.{{this}} = _{{../../className}}.{{../className}};
+  {{/each}}
+  {{/children}}
+  {{/if}}
+
+  {{#each methods}}
+  _{{../className}}.{{this}} = {{{method this 'path'}}};
+  {{/each}}
+  return _{{className}};
+}
